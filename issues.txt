@@ -1,0 +1,6 @@
+- word embedding out of vocabulary -> random vector + embedding update V
+- data is tokenized. embeddings are from tokenized words V
+- for sentence embedding, I use nltk sentence tokenizer. but context is tokenized. Is sentence tokenizer works? V (readData filters error cases)
+- since glove is trained with (lowercase + stanford tokenizer), context and query should be lowercase V
+- is it ok if i only use lowercase? what about uppercase's feature? (name, etc)
+- char embedding is not applied
